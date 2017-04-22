@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: ee491new
+  host: ee491new
+  disk_quota: 1024M
+  services:
+  - ee491e-iot-iotf-service
+  - availability-monitoring-auto
